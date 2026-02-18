@@ -1,0 +1,35 @@
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="4.432791999999999">
+<testsuite name="vstesting/visualtesting.spec.ts" timestamp="2026-02-08T10:16:15.062Z" hostname="chromium" tests="1" failures="1" skipped="0" time="3.933" errors="0">
+<testcase name="Verify Test1" classname="vstesting/visualtesting.spec.ts" time="3.933">
+<failure message="visualtesting.spec.ts:2:5 Verify Test1" type="FAILURE">
+<![CDATA[  [chromium] › vstesting/visualtesting.spec.ts:2:5 › Verify Test1 ──────────────────────────────────
+
+    Error: A snapshot doesn't exist at /Users/Satyam/Documents/PWDemos/tests/vstesting/visualtesting.spec.ts-snapshots/homepage-chromium-darwin.png, writing actual.
+
+      2 | test("Verify Test1",async({page})=>{
+      3 |     await page.goto("https://demowebshop.tricentis.com/")
+    > 4 |     expect (await page.screenshot()).toMatchSnapshot('homepage.png')
+        |                                      ^
+      5 | })
+        at /Users/Satyam/Documents/PWDemos/tests/vstesting/visualtesting.spec.ts:4:38
+
+    attachment #1: homepage (image/png) ────────────────────────────────────────────────────────────
+    Expected: vstesting/visualtesting.spec.ts-snapshots/homepage-chromium-darwin.png
+    Received: ../test-results/vstesting-visualtesting-Verify-Test1-chromium/homepage-actual.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/vstesting-visualtesting-Verify-Test1-chromium/error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|tests/vstesting/visualtesting.spec.ts-snapshots/homepage-chromium-darwin.png]]
+
+[[ATTACHMENT|test-results/vstesting-visualtesting-Verify-Test1-chromium/homepage-actual.png]]
+
+[[ATTACHMENT|test-results/vstesting-visualtesting-Verify-Test1-chromium/error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

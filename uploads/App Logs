@@ -1,0 +1,254 @@
+12:49:31.872  D   showLoader : splashFinished - true , message - Connecting...
+12:49:31.872  D   hideNoInternetBottomSheet
+12:49:31.872  D   showGlobalLoader: Login
+12:49:31.873  D   <<<<<<<< LOADER SHOW in in.cgames.core.splash.ui.SplashActivity, message = Connecting..., reason = showLoader()
+12:49:31.873  D   GlobalLoader: SHOW_REQUESTED - Show requested - reason: showLoader(), message: Connecting...
+12:49:31.875  D   hideNoInternetBottomSheet
+12:49:31.875  D   Requesting config in splash on First Load
+12:49:31.876  D   <===== FRAGMENT ON_PAUSE : CustomBottomSheet 13132704 =====>
+12:49:31.876  D   MAC ID :: d26515c328e323a0 length = 16
+12:49:31.876  D   <===== FRAGMENT ON_STOP : CustomBottomSheet 13132704 =====>
+12:49:31.877  D   <===== FRAGMENT ON_DESTROY_VIEW : CustomBottomSheet 13132704 =====>
+12:49:31.877  D   Fetching public config Now
+12:49:31.878  D   <===== FRAGMENT ON_DESTROY : CustomBottomSheet 13132704 =====>
+12:49:31.878  D   GlobalLoader: GlobalLoader: STATE_CHANGE - New state: LoadingState(message=Connecting..., animate=true, reason=showLoader(), showTimestamp=1763018371873)
+12:49:31.878  D   GlobalLoader: showInternal - reason: showLoader(), message: Connecting..., count: 9
+12:49:31.878  D   GlobalLoader: DIALOG_CREATE - Creating new dialog - reason: showLoader()
+12:49:31.880  D   llanguage: keyLang -> en-IN
+12:49:31.881  D   llanguage: Lang -> en-IN
+12:49:31.882  D   llanguage: deviceLang -> English (India)
+12:49:31.882  D   llanguage: Lang -> English (India)
+12:49:31.888  D   --> Sending request https://super-api.zaplearn.com/v1.0/config/preSignUp?isSilentLogin=false&keyboardLanguage=en&deviceLanguage=en
+12:49:31.903  D   GlobalLoader: DIALOG_SHOWN - Dialog successfully shown - reason: showLoader()
+12:49:31.903  D   GlobalLoader: autoCancelJob cleanup called from startAutoCancelTimer()
+12:49:32.469  E  safeApiRequest: 
+                 javax.net.ssl.SSLHandshakeException: Pin verification failed
+                 	at com.android.org.conscrypt.SSLUtils.toSSLHandshakeException(SSLUtils.java:358)
+                 	at com.android.org.conscrypt.ConscryptEngine.convertException(ConscryptEngine.java:1131)
+                 	at com.android.org.conscrypt.ConscryptEngine.readPlaintextData(ConscryptEngine.java:1086)
+                 	at com.android.org.conscrypt.ConscryptEngine.unwrap(ConscryptEngine.java:873)
+                 	at com.android.org.conscrypt.ConscryptEngine.unwrap(ConscryptEngine.java:744)
+                 	at com.android.org.conscrypt.ConscryptEngine.unwrap(ConscryptEngine.java:709)
+                 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.processDataFromSocket(ConscryptEngineSocket.java:907)
+                 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.-$$Nest$mprocessDataFromSocket(Unknown Source:0)
+                 	at com.android.org.conscrypt.ConscryptEngineSocket.doHandshake(ConscryptEngineSocket.java:242)
+                 	at com.android.org.conscrypt.ConscryptEngineSocket.startHandshake(ConscryptEngineSocket.java:224)
+                 	at okhttp3.internal.connection.RealConnection.connectTls(Unknown Source:80)
+                 	at okhttp3.internal.connection.RealConnection.establishProtocol(Unknown Source:52)
+                 	at okhttp3.internal.connection.RealConnection.connect(Unknown Source:199)
+                 	at okhttp3.internal.connection.ExchangeFinder.findConnection(Unknown Source:269)
+                 	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(Unknown Source:0)
+                 	at okhttp3.internal.connection.ExchangeFinder.find(Unknown Source:47)
+                 	at okhttp3.internal.connection.RealCall.initExchange$okhttp(Unknown Source:31)
+                 	at okhttp3.internal.connection.ConnectInterceptor.intercept(Unknown Source:11)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at okhttp3.internal.cache.CacheInterceptor.intercept(Unknown Source:210)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at okhttp3.internal.http.BridgeInterceptor.intercept(Unknown Source:179)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(Unknown Source:34)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at in.cgames.core.http.utils.GzipInterceptor.intercept(Unknown Source:99)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at uI.intercept(Unknown Source:57)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at xA.intercept(Unknown Source:27)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at okhttp3.logging.HttpLoggingInterceptor.intercept(Unknown Source:495)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at in.cgames.core.http.utils.ZupeeHttpAnalyticsAndRetryInterceptor.getResponse(Unknown Source:124)
+                 	at in.cgames.core.http.utils.ZupeeHttpAnalyticsAndRetryInterceptor.access$getResponse(Unknown Source:0)
+                 	at in.cgames.core.http.utils.ZupeeHttpAnalyticsAndRetryInterceptor$intercept$1.invokeSuspend(Unknown Source:39)
+                 	at rm.resumeWith(Unknown Source:11)
+                 	at w10.run(Unknown Source:128)
+                 	at c90.y0(Unknown Source:78)
+                 	at Lp.i1(Unknown Source:26)
+                 	at Es.a(Unknown Source:76)
+                 	at Ds.e(Unknown Source:0)
+                 	at Es.b(Unknown Source:6)
+                 	at Ds.f(Unknown Source:0)
+                 	at in.cgames.core.http.utils.ZupeeHttpAnalyticsAndRetryInterceptor.intercept(Unknown Source:31)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at in.cgames.core.http.utils.ZupeeAuthAndLoggingInterceptor.intercept(Unknown Source:521)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(Unknown Source:117)
+                 	at okhttp3.internal.connection.RealCall$AsyncCall.run(Unknown Source:44)
+                 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+                 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+                 	at java.lang.Thread.run(Thread.java:1119)
+12:49:32.469  E  Caused by: java.security.cert.CertificateException: Pin verification failed
+                 	at android.security.net.config.NetworkSecurityTrustManager.checkPins(NetworkSecurityTrustManager.java:148)
+                 	at android.security.net.config.NetworkSecurityTrustManager.checkServerTrusted(NetworkSecurityTrustManager.java:95)
+                 	at android.security.net.config.RootTrustManager.checkServerTrusted(RootTrustManager.java:90)
+                 	at com.android.org.conscrypt.ConscryptEngineSocket$2.checkServerTrusted(ConscryptEngineSocket.java:169)
+                 	at com.android.org.conscrypt.Platform.checkServerTrusted(Platform.java:286)
+                 	at com.android.org.conscrypt.ConscryptEngine.verifyCertificateChain(ConscryptEngine.java:1635)
+                 	at com.android.org.conscrypt.NativeCrypto.ENGINE_SSL_read_direct(Native Method)
+                 	at com.android.org.conscrypt.NativeSsl.readDirectByteBuffer(NativeSsl.java:571)
+                 	at com.android.org.conscrypt.ConscryptEngine.readPlaintextDataDirect(ConscryptEngine.java:1092)
+                 	at com.android.org.conscrypt.ConscryptEngine.readPlaintextData(ConscryptEngine.java:1076)
+                 	... 50 more
+12:49:32.469  D   Couldn't get public Config, retrying again in 1 sec
+12:49:33.506  D   Transport is available with RTT=34ms - true
+12:49:33.507  D   llanguage: keyLang -> en-IN
+12:49:33.508  D   llanguage: Lang -> en-IN
+12:49:33.508  D   llanguage: deviceLang -> English (India)
+12:49:33.508  D   llanguage: Lang -> English (India)
+12:49:33.511  D   --> Sending request https://super-api.zaplearn.com/v1.0/config/preSignUp?isSilentLogin=false&keyboardLanguage=en&deviceLanguage=en
+12:49:33.873  E  safeApiRequest: 
+                 javax.net.ssl.SSLHandshakeException: Pin verification failed
+                 	at com.android.org.conscrypt.SSLUtils.toSSLHandshakeException(SSLUtils.java:358)
+                 	at com.android.org.conscrypt.ConscryptEngine.convertException(ConscryptEngine.java:1131)
+                 	at com.android.org.conscrypt.ConscryptEngine.readPlaintextData(ConscryptEngine.java:1086)
+                 	at com.android.org.conscrypt.ConscryptEngine.unwrap(ConscryptEngine.java:873)
+                 	at com.android.org.conscrypt.ConscryptEngine.unwrap(ConscryptEngine.java:744)
+                 	at com.android.org.conscrypt.ConscryptEngine.unwrap(ConscryptEngine.java:709)
+                 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.processDataFromSocket(ConscryptEngineSocket.java:907)
+                 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.-$$Nest$mprocessDataFromSocket(Unknown Source:0)
+                 	at com.android.org.conscrypt.ConscryptEngineSocket.doHandshake(ConscryptEngineSocket.java:242)
+                 	at com.android.org.conscrypt.ConscryptEngineSocket.startHandshake(ConscryptEngineSocket.java:224)
+                 	at okhttp3.internal.connection.RealConnection.connectTls(Unknown Source:80)
+                 	at okhttp3.internal.connection.RealConnection.establishProtocol(Unknown Source:52)
+                 	at okhttp3.internal.connection.RealConnection.connect(Unknown Source:199)
+                 	at okhttp3.internal.connection.ExchangeFinder.findConnection(Unknown Source:269)
+                 	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(Unknown Source:0)
+                 	at okhttp3.internal.connection.ExchangeFinder.find(Unknown Source:47)
+                 	at okhttp3.internal.connection.RealCall.initExchange$okhttp(Unknown Source:31)
+                 	at okhttp3.internal.connection.ConnectInterceptor.intercept(Unknown Source:11)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at okhttp3.internal.cache.CacheInterceptor.intercept(Unknown Source:210)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at okhttp3.internal.http.BridgeInterceptor.intercept(Unknown Source:179)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(Unknown Source:34)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at in.cgames.core.http.utils.GzipInterceptor.intercept(Unknown Source:99)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at uI.intercept(Unknown Source:57)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at xA.intercept(Unknown Source:27)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at okhttp3.logging.HttpLoggingInterceptor.intercept(Unknown Source:495)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at in.cgames.core.http.utils.ZupeeHttpAnalyticsAndRetryInterceptor.getResponse(Unknown Source:124)
+                 	at in.cgames.core.http.utils.ZupeeHttpAnalyticsAndRetryInterceptor.access$getResponse(Unknown Source:0)
+                 	at in.cgames.core.http.utils.ZupeeHttpAnalyticsAndRetryInterceptor$intercept$1.invokeSuspend(Unknown Source:39)
+                 	at rm.resumeWith(Unknown Source:11)
+                 	at w10.run(Unknown Source:128)
+                 	at c90.y0(Unknown Source:78)
+                 	at Lp.i1(Unknown Source:26)
+                 	at Es.a(Unknown Source:76)
+                 	at Ds.e(Unknown Source:0)
+                 	at Es.b(Unknown Source:6)
+                 	at Ds.f(Unknown Source:0)
+                 	at in.cgames.core.http.utils.ZupeeHttpAnalyticsAndRetryInterceptor.intercept(Unknown Source:31)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at in.cgames.core.http.utils.ZupeeAuthAndLoggingInterceptor.intercept(Unknown Source:521)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(Unknown Source:117)
+                 	at okhttp3.internal.connection.RealCall$AsyncCall.run(Unknown Source:44)
+                 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+                 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+                 	at java.lang.Thread.run(Thread.java:1119)
+12:49:33.873  E  Caused by: java.security.cert.CertificateException: Pin verification failed
+                 	at android.security.net.config.NetworkSecurityTrustManager.checkPins(NetworkSecurityTrustManager.java:148)
+                 	at android.security.net.config.NetworkSecurityTrustManager.checkServerTrusted(NetworkSecurityTrustManager.java:95)
+                 	at android.security.net.config.RootTrustManager.checkServerTrusted(RootTrustManager.java:90)
+                 	at com.android.org.conscrypt.ConscryptEngineSocket$2.checkServerTrusted(ConscryptEngineSocket.java:169)
+                 	at com.android.org.conscrypt.Platform.checkServerTrusted(Platform.java:286)
+                 	at com.android.org.conscrypt.ConscryptEngine.verifyCertificateChain(ConscryptEngine.java:1635)
+                 	at com.android.org.conscrypt.NativeCrypto.ENGINE_SSL_read_direct(Native Method)
+                 	at com.android.org.conscrypt.NativeSsl.readDirectByteBuffer(NativeSsl.java:571)
+                 	at com.android.org.conscrypt.ConscryptEngine.readPlaintextDataDirect(ConscryptEngine.java:1092)
+                 	at com.android.org.conscrypt.ConscryptEngine.readPlaintextData(ConscryptEngine.java:1076)
+                 	... 50 more
+12:49:33.873  D   Couldn't get public Config, retrying again in 1 sec
+12:49:34.922  D   Transport is available with RTT=46ms - true
+12:49:34.923  D   llanguage: keyLang -> en-IN
+12:49:34.923  D   llanguage: Lang -> en-IN
+12:49:34.926  D   llanguage: deviceLang -> English (India)
+12:49:34.926  D   llanguage: Lang -> English (India)
+12:49:34.929  D   --> Sending request https://super-api.zaplearn.com/v1.0/config/preSignUp?isSilentLogin=false&keyboardLanguage=en&deviceLanguage=en
+12:49:35.294  E  safeApiRequest: 
+                 javax.net.ssl.SSLHandshakeException: Pin verification failed
+                 	at com.android.org.conscrypt.SSLUtils.toSSLHandshakeException(SSLUtils.java:358)
+                 	at com.android.org.conscrypt.ConscryptEngine.convertException(ConscryptEngine.java:1131)
+                 	at com.android.org.conscrypt.ConscryptEngine.readPlaintextData(ConscryptEngine.java:1086)
+                 	at com.android.org.conscrypt.ConscryptEngine.unwrap(ConscryptEngine.java:873)
+                 	at com.android.org.conscrypt.ConscryptEngine.unwrap(ConscryptEngine.java:744)
+                 	at com.android.org.conscrypt.ConscryptEngine.unwrap(ConscryptEngine.java:709)
+                 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.processDataFromSocket(ConscryptEngineSocket.java:907)
+                 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.-$$Nest$mprocessDataFromSocket(Unknown Source:0)
+                 	at com.android.org.conscrypt.ConscryptEngineSocket.doHandshake(ConscryptEngineSocket.java:242)
+                 	at com.android.org.conscrypt.ConscryptEngineSocket.startHandshake(ConscryptEngineSocket.java:224)
+                 	at okhttp3.internal.connection.RealConnection.connectTls(Unknown Source:80)
+                 	at okhttp3.internal.connection.RealConnection.establishProtocol(Unknown Source:52)
+                 	at okhttp3.internal.connection.RealConnection.connect(Unknown Source:199)
+                 	at okhttp3.internal.connection.ExchangeFinder.findConnection(Unknown Source:269)
+                 	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(Unknown Source:0)
+                 	at okhttp3.internal.connection.ExchangeFinder.find(Unknown Source:47)
+                 	at okhttp3.internal.connection.RealCall.initExchange$okhttp(Unknown Source:31)
+                 	at okhttp3.internal.connection.ConnectInterceptor.intercept(Unknown Source:11)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at okhttp3.internal.cache.CacheInterceptor.intercept(Unknown Source:210)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at okhttp3.internal.http.BridgeInterceptor.intercept(Unknown Source:179)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(Unknown Source:34)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at in.cgames.core.http.utils.GzipInterceptor.intercept(Unknown Source:99)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at uI.intercept(Unknown Source:57)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at xA.intercept(Unknown Source:27)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at okhttp3.logging.HttpLoggingInterceptor.intercept(Unknown Source:495)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at in.cgames.core.http.utils.ZupeeHttpAnalyticsAndRetryInterceptor.getResponse(Unknown Source:124)
+                 	at in.cgames.core.http.utils.ZupeeHttpAnalyticsAndRetryInterceptor.access$getResponse(Unknown Source:0)
+                 	at in.cgames.core.http.utils.ZupeeHttpAnalyticsAndRetryInterceptor$intercept$1.invokeSuspend(Unknown Source:39)
+                 	at rm.resumeWith(Unknown Source:11)
+                 	at w10.run(Unknown Source:128)
+                 	at c90.y0(Unknown Source:78)
+                 	at Lp.i1(Unknown Source:26)
+                 	at Es.a(Unknown Source:76)
+                 	at Ds.e(Unknown Source:0)
+                 	at Es.b(Unknown Source:6)
+                 	at Ds.f(Unknown Source:0)
+                 	at in.cgames.core.http.utils.ZupeeHttpAnalyticsAndRetryInterceptor.intercept(Unknown Source:31)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at in.cgames.core.http.utils.ZupeeAuthAndLoggingInterceptor.intercept(Unknown Source:521)
+                 	at okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source:151)
+                 	at okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(Unknown Source:117)
+                 	at okhttp3.internal.connection.RealCall$AsyncCall.run(Unknown Source:44)
+                 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+                 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+                 	at java.lang.Thread.run(Thread.java:1119)
+12:49:35.294  E  Caused by: java.security.cert.CertificateException: Pin verification failed
+                 	at android.security.net.config.NetworkSecurityTrustManager.checkPins(NetworkSecurityTrustManager.java:148)
+                 	at android.security.net.config.NetworkSecurityTrustManager.checkServerTrusted(NetworkSecurityTrustManager.java:95)
+                 	at android.security.net.config.RootTrustManager.checkServerTrusted(RootTrustManager.java:90)
+                 	at com.android.org.conscrypt.ConscryptEngineSocket$2.checkServerTrusted(ConscryptEngineSocket.java:169)
+                 	at com.android.org.conscrypt.Platform.checkServerTrusted(Platform.java:286)
+                 	at com.android.org.conscrypt.ConscryptEngine.verifyCertificateChain(ConscryptEngine.java:1635)
+                 	at com.android.org.conscrypt.NativeCrypto.ENGINE_SSL_read_direct(Native Method)
+                 	at com.android.org.conscrypt.NativeSsl.readDirectByteBuffer(NativeSsl.java:571)
+                 	at com.android.org.conscrypt.ConscryptEngine.readPlaintextDataDirect(ConscryptEngine.java:1092)
+                 	at com.android.org.conscrypt.ConscryptEngine.readPlaintextData(ConscryptEngine.java:1076)
+                 	... 50 more
+12:49:35.294  D   Couldn't get public Config, retrying again in 1 sec
+12:49:36.296  D   Couldn't get public Config, max retry count 3 reached
+12:49:36.297  D   handleMessage : what - 2831
+12:49:36.298  D   hideLoader
+12:49:36.299  D   BaseActivity: hideGlobalLoader false
+12:49:36.299  D   GlobalLoader: HIDE_REQUESTED - Hide requested
+12:49:36.300  D   Public Config Failed on splash, showing error bottomSheet
+12:49:36.302  D   GlobalLoader: GlobalLoader: STATE_CHANGE - New state: null
+12:49:36.303  D   GlobalLoader: autoCancelJob cleanup called from init block -> ui state is null
+12:49:36.308  D   <===== FRAGMENT ON_CREATE : CustomBottomSheet 265564412 =====>
+12:49:36.322  D   <===== FRAGMENT ON_CREATE_VIEW : CustomBottomSheet 265564412 =====>
+12:49:36.338  D   <===== FRAGMENT ON_START : CustomBottomSheet 265564412 =====>
+12:49:36.338  D   <===== FRAGMENT ON_RESUME : CustomBottomSheet 265564412 =====>
+12:49:36.378  D   GlobalLoader: hideInternal - dialog exists: true, display duration: 4475ms, count: 9
+12:49:36.379  D   GlobalLoader: DIALOG_DISMISS - Attempting to dismiss dialog
+12:49:36.394  D   GlobalLoader: DIALOG_DISMISSED - Dialog successfully dismissed

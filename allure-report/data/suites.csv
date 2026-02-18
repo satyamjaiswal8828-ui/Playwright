@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4333","Verify report","chromium","2026-02-07","passed","2026-02-07","","reporters.spec.ts","",""
+"","3713","Verify title","chromium","2026-02-07","passed","2026-02-07","","reporters.spec.ts","",""
+"","3541","verify Logo","chromium","2026-02-07","passed","2026-02-07","","reporters.spec.ts","",""
