@@ -7,7 +7,7 @@ Request body : static
 
 import { test, expect, request } from "@playwright/test"
 
-test("Create Post request using static body", async ({ request }) => {
+test("Create Post request using Faker Library", async ({ request }) => {
 
     // request body
     const requestBody = {
