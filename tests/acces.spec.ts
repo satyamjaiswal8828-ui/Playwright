@@ -12,7 +12,7 @@ Every website should follow WCAG guidelines.
 Install @axe-core/playwright
     sudo npm install @axe-core/playwright
 
-*/
+
 
 
 
@@ -56,3 +56,23 @@ test("Accessbility Testing ",async({page},testInfo)=>{
 
 })
 
+*/
+import {test,expect } from "@playwright/test"
+test("Verify test details",async({page})=>{
+    await page.goto("https://demowebshop.tricentis.com/")
+    await expect(page).toHaveTitle("Demo Web Shop");
+    const registerButton=await page.locator("//a[text()=\"Register\"]");
+    await expect(registerButton).toBeVisible();
+        await expect(registerButton).toBeEnabled();
+        await page.locator("input#pollanswers-1").click();
+    // const printData=await page.locator("h2.product-title").allInnerTexts();
+    // console.log(printData);
+    const printData=await page.locator("h2.product-title");
+    const store =await printData.count();
+    console.log("Size: "+store)
+    for (let i=0;i<store;i++)
+    {
+        console.log(await printData.nth(i).textContent());
+    }
+    await page.waitForTimeout(5000);
+})
