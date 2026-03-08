@@ -10,3 +10,7 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'Log in' }).click();
   await page.getByRole('link', { name: 'Log out' }).click();
 });
+
+// Command for run Codegen ->  npx playwright codegen
+// Specific browser -> npx playwright codegen --browser=firefox
+// Specific website open karne ho to -> npx playwright codegen https://demowebshop.tricentis.com/
